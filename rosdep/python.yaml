@@ -5665,6 +5665,15 @@ python3-fastapi:
     focal:
       pip:
         packages: [fastapi]
+python3-fastavro:
+  debian:
+    '*':
+      pip:
+        packages: [fastavro]
+  ubuntu:
+    '*':
+      pip:
+        packages: [fastavro]
 python3-fasteners-pip:
   debian:
     pip:
