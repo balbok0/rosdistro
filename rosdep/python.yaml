@@ -1445,6 +1445,13 @@ python-falcon:
   fedora: [python-falcon]
   gentoo: [dev-python/falcon]
   ubuntu: [python-falcon]
+python-fastavro-pip:
+  debian:
+    pip:
+      packages: [fastavro]
+  ubuntu:
+    pip:
+      packages: [fastavro]
 python-fastdtw-pip:
   debian:
     pip:
